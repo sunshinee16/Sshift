@@ -1,3 +1,29 @@
-# Godot 4+ specific ignores
+# Godot 4+ cache and imported assets
 .godot/
+.import/
+
+# Android build exports/cache
 /android/
+.nomedia
+
+# Export configurations and credentials (CRITICAL for security)
+export.cfg
+export_credentials.cfg
+*.tmp
+
+# Auto-generated translations
+*.translation
+
+# OS-specific temporary files (useful for Windows/Godot 4.2+)
+~*.dll
+Thumbs.db
+.DS_Store
+
+# Mono / C# specific ignores (keep if using C#)
+.mono/
+data_*/
+mono_crash.*.json
+*.csproj
+*.sln
+.vs/
+.idea/
