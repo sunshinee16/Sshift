@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="Sshift"
+run/main_scene="uid://k11853oes0d1"
 config/features=PackedStringArray("4.6", "Mobile")
 config/icon="res://default/icon.svg"
 
