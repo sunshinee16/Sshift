@@ -19,6 +19,12 @@ config/icon="res://default/icon.svg"
 
 enabled=PackedStringArray("res://addons/godot_super-wakatime/plugin.cfg")
 
+[file_customization]
+
+folder_colors={
+"res://blender_models/": "purple"
+}
+
 [input]
 
 forward={
